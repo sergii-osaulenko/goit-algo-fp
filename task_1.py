@@ -20,7 +20,7 @@ def reverse_list(head):
         current = next_node
     return prev
 
-# 2. Сортування (Merge Sort Algorithm)
+# 2. Сортування (Merge Sort)
 def sorted_merge(a, b):
     result = None
     if a is None: return b
