@@ -17,7 +17,7 @@ def draw_pithagoras_tree(t, branch_len, level):
     t.backward(branch_len)
 
 def main():
-    level = int(input("Введіть рівень рекурсії (наприклад, 7): "))
+    level = int(input("Введіть рівень рекурсії: "))
     
     t = turtle.Turtle()
     t.speed("fastest")
