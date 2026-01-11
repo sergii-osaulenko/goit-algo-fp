@@ -120,3 +120,5 @@ if __name__ == "__main__":
     # Перебудовуємо дерево для чистоти експерименту (скидаємо кольори)
     heap_root = build_heap_tree(data) 
     visualize_bfs(heap_root)
+
+    # Heap array: [0, 2, 1, 5, 4, 10, 3]
