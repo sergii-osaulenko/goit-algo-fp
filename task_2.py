@@ -32,7 +32,7 @@ def main():
         print("Будь ласка, введіть ціле число.")
         return
 
-    # Налаштування графіку
+    # Налаштування графіка
     fig, ax = plt.subplots(figsize=(10, 8))
     ax.set_aspect('equal')
     ax.axis('off') # Прибираємо осі
