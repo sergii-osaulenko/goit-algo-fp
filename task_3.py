@@ -34,3 +34,5 @@ graph = {
 }
 
 print(dijkstra(graph, 'A'))
+
+# {'A': 0, 'B': 1, 'C': 3, 'D': 4}
