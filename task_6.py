@@ -62,8 +62,8 @@ budget = 100
 greedy_res = greedy_algorithm(items, budget)
 dp_res = dynamic_programming(items, budget)
 
-print(f"Жадібний алгоритм: {greedy_res[0]}, Калорії: {greedy_res[1]}")
-print(f"Динамічне програмування: {dp_res[0]}, Калорії: {dp_res[1]}")
+print(f"Жадібний алгоритм: {greedy_res[0]}, Кількість калорій: {greedy_res[1]}")
+print(f"Динамічне програмування: {dp_res[0]}, Кількість калорій: {dp_res[1]}")
 
-# Жадібний алгоритм: ['cola', 'potato', 'pepsi', 'hot-dog'], Калорії: 870
-# Динамічне програмування: ['potato', 'cola', 'pepsi', 'pizza'], Калорії: 970
+# Жадібний алгоритм: ['cola', 'potato', 'pepsi', 'hot-dog'], Кількість калорій: 870
+# Динамічне програмування: ['potato', 'cola', 'pepsi', 'pizza'], Кількість калорій: 970
