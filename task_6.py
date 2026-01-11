@@ -37,7 +37,7 @@ def dynamic_programming(items, budget):
     calories = [items[name]["calories"] for name in item_names]
     n = len(items)
     
-    # Таблиця DP: рядки - предмети, стовпці - бюджет від 0 до budget
+    # Таблиця DP: рядки - страви, стовпці - бюджет від 0 до budget
     dp = [[0 for _ in range(budget + 1)] for _ in range(n + 1)]
     
     for i in range(1, n + 1):
@@ -47,7 +47,7 @@ def dynamic_programming(items, budget):
             else:
                 dp[i][w] = dp[i-1][w]
     
-    # Відновлення вибраних предметів
+    # Відновлення обраніх страв
     chosen_items = []
     w = budget
     for i in range(n, 0, -1):
